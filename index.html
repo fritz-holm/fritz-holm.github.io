@@ -1,224 +1,66 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-
-<head>
+<!doctype html>
+<html lang="en">
+ <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/libs/font-awesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>Frederik Holm</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+    <img id="foto" src="/images/holm.jpg" class="rounded-circle" alt="Cinque Terre" style="max-width: 300px">
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Frederik Holm</h1>
-			<h2>Software Engineering Student</h2>
-        </div>
-        <!-- End #lead-content -->
+    <h1>Frederik Holm</h1>
+    <h2>Software Engineering Student</h2>
+    <i class="fas fa-envelope-square"></i> <a href="mailto:holm@frho.dk">holm@frho.dk</a> <br>
+    <a href="https://github.com/hrHolm"><i class="fab fa-github fa-2x" aria-hidden="true" style="color:black"></i></a>
+    <a href="https://www.linkedin.com/in/frederik-holm/"><i class="fab fa-linkedin fa-2x" aria-hidden="true" style="color:#0077B5"></i></a>
 
-        <div id="lead-overlay"></div>
+    <!-- About me -->
+    <h3><i class="fa fa-male" aria-hidden="true"></i> About me</h3>
+    <p>Currently studying Software Engineering. Located in Odense C.</p>
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
+    <!-- Education -->
+    <h3><i class="fa fa-university" aria-hidden="true"></i> Education</h3>
+    <dl class="row">
+        <dt class="col-sm-4">University of Southern Denmark<br>Sept 2016 - June 2019</dt>
+        <dd class="col-sm-5">Bachelor's degree in Software Engineering</dd>
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am a newly begun developer currently studying Software Engineering. My current experience is minimal, but nonetheless expanding. I started programming in Sept 2016 with Java, so that is where my main focus currently is.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
+        <dt class="col-sm-4">HTX Slagelse (Selandia CEU)<br>Aug 2013 - June 2016</dt>
+        <dd class="col-sm-5">Biotechnology A / Math A</dd>
+    </dl>
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="?? – ??">
-                <h3>None yet...</h3>
-            </div>
+    <!-- Skills -->
+    <h3><i class="fa fa-check" aria-hidden="true"></i> Skills</h3>
+    Skills that I have aquired during my education:
+    <dl class="row">
+        <dt class="col-sm-4">Programming Languages</dt>
+        <dd class="col-sm-5">Java, C#, Python, PostgreSQL, JavaScript</dd>
 
-        </div>
-    </div>
-    <!-- End #experience -->
+        <dt class="col-sm-4">Software Documentation</dt>
+        <dd class="col-sm-5">Using UML2.0 (Unified Modeling Language) in order to create Class Diagrams, Sequence Diagrams, etc. </dd>
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Southern Denmark</h3>
-            <span class="education-date">Sept 2016 - June 2019</span>
-            <h4>Bachelor's degree in Software Engineering</h4>
-        </div>
-        <!-- End .education-block -->
+        <dt class="col-sm-4">Software Design</dt>
+        <dd class="col-sm-5">Using Design Patterns and Architectural Styles in order to achieve maintainable code</dd>
+    </dl>
 
-        <div class="education-block">
-            <h3>HTX Slagelse (Selandia CEU)</h3>
-            <span class="education-date">Aug 2013 - June 2016</span>
-            <h4>Biotechnology A / Math A</h4>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+    <!-- Languages -->
+    <h3><i class="fa fa-comments" aria-hidden="true"></i> Languages</h3>
+    <dl class="row">
+        <dt class="col-sm-1">Danish</dt>
+        <dd class="col-sm-2">Native proficiency</dd>
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project coming soon...</h3>
-                        <p>
-                            
-                        </p>
-                        <!-- <a href="#">View Project</a> -->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+        <dt class="col-sm-1">English</dt>
+        <dd class="col-sm-2">Full professional proficiency</dd>
+    </dl>
 
-                
-                <!-- End .project -->
-            </div>
-			<div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/2ndproject.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>2nd Semester Project - Electronics Webshop prototype</h3>
-						                        <p> 
-                           Worked in a group of 4 people. The theme of the project was "Organisation-oriented softwaredevelopment". 
-						   The main goals of the project was (1) to handle the project with
-						   UP (Unified Process). (2) Develop the software with a layered architecture, and (3) design and program a relationel database
-						   (here PostgreSQL) for keeping track of products.
-						</p><p>
-						   Front-end as well as back-end was built with Java, as the "website" was not to be hosted online.
-						   The project taught me that UP did not benefit a small team of developers, since the amount of documentation
-						   hindered a lot of development. Furthermore, using a layered architecture benefited greatly, since the software
-						   could be split logically in order to improve maintainability. Designing and building a relationel database proved
-						   hard at first, but quickly became natural because it was applied in a project.
-                        </p>
-                        <!-- <a href="#">View Project</a> -->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Java</li>
-			<li>C#</li>
-			<li>SQL (PostgreSQL)</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/holm@frho.dk">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2018 Frederik Holm
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/hrHolm" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/frederik-holm/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-
 </html>
