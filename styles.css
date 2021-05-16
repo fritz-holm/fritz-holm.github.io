@@ -1,4 +1,4 @@
 body {
-    width: 68%;
-    margin: 0 auto;
+    max-width: 68%;
+    margin: auto;
 }
